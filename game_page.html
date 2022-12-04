@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEATH quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body background="2efe1743d56de9e77d3f45be76227f2f.png">
+
+	<h4 id="player_name1"></h4> <span id="player_score1"></span>
+	<h4 id="player_name2"></h4> <span id="player_score2"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: rgb(0, 0, 0);">Math quiz!</h2>
+        <label>Or DIE</label>
+      <h3 id="playerwhoDECIDES"></h3>
+	  <h3 id="playerwhoDIES"></h3>
+	  <div id="wordarea" class="col-lg-6"></div>
+		<br>
+		<br>
+
+		<label>Number 1</label>
+
+      <input type="text" id="numb1" class="form-control" placeholder="Enter number or you lose the ability to live" style="width: 50%;">
+	  <br>
+	  <label>Number 2</label>
+	  <input type="text" id="numb2" class="form-control" placeholder="Enter number or you lose the ability to live" style="width: 50%;">
+	  <br>
+	  <button onclick="addWORD()" class="btn btn-info">Send</button>
+	</center>
+</div>
+
+<script src="game_page.js"></script>
+</body>
+</html>
